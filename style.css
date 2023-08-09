@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./background.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 80%;
+    height: 90%;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.bar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.i-div{
+    width:43px;
+    height: 43px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.i-div i{
+    color: white;
+}
+
+.sp1{
+    width: 450px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sp1 a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.sp2{
+    width: 205px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.b1{
+    width: 100px;
+    height: 35px;
+    z-index: 0;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(225, 214, 214);
+    border: none;
+    font-weight: 700;
+}
+
+.b2{
+    width: 100px;
+    height: 35px;
+    z-index: 1;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: 700;
+}
+
+.big-box{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 50px;
+}
+
+.left{
+    width: 500px;
+    height: 450px;
+    border-radius: 30px;
+    background-image: url(./Earbuds_1000x.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.left h4{
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.left h1{
+    color: white;
+    margin-top: 5px;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left button{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 140px;
+    height: 45px;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-left: 40px;
+    margin-top: 200px;
+
+}
+
+.right{
+    width: 600px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.box1{
+    width: 600px;
+    height: 220px;
+    border-radius:30px ;
+    background-image: url(./gery.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-block: 10px;
+    padding-left: 40px;
+}
+
+.box1 h4{
+    color: black;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box1 h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box2{
+    border-radius: 30px;
+    width: 600px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.mini-box1{
+    width: 290px;
+    height: 220px;
+    background-color: rgb(183, 129, 234);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 20px;
+    color: white;
+}
+
+.mini-box2 {
+    width: 290px;
+    height: 220px;
+    background-color: greenyellow;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 20px;
+}
